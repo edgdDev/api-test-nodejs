@@ -1,0 +1,28 @@
+{
+  "name": "andy-rodriguez-jimenez-andyrodriguezjimenez-2022-8-23-library-api",
+  "version": "1.0.0",
+  "description": "- [Instrucciones en Español](README_ES.md)\r - [Instructions in English](README_EN.md)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "seed":"node seeder.js -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gbh-candidates/andy-rodriguez-jimenez-andyrodriguezjimenez-2022-8-23-library-api-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gbh-candidates/andy-rodriguez-jimenez-andyrodriguezjimenez-2022-8-23-library-api-js/issues"
+  },
+  "homepage": "https://gitlab.com/gbh-candidates/andy-rodriguez-jimenez-andyrodriguezjimenez-2022-8-23-library-api-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.5.3"
+  }
+}
